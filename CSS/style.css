@@ -1,6 +1,6 @@
 .inline-block {
-    display: inline-block;
-    vertical-align: top;
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -9,9 +9,9 @@
     text-align: center;
 }
 
-nav {
+header {
     width: 73%;
-    padding: 1%;
+    padding:10px;
 }
 
 ul { 
@@ -25,17 +25,65 @@ ul {
 }
 
 .content{
+    width: 900px;
+}
+
+.footer {
+    background-color: white;
+    padding: 20px;
+    color: black;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;  
+   
+}
+
+.profile{
+    width: 500px
+}
+
+.body {
+    margin:0;
+    padding:0;
+    height:100%;
+    background-color: black;
+    color: white;
+ }
+ .container {
+    min-height:100%;
+    position:relative;
+ }
+
+ .myWork {
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "travel annarose hair";
+}
+
+ .TravelApp {
+     width: 500px;
+     font-size: 24px;
+     grid-area: travel
+ }
+
+ .AnnaRose {
     width: 500px;
-    margin:0 auto;
+    font-size: 24px;
+    grid-area: annarose
 }
 
-footer {
-    background-color: #373738;
-    padding
+.HairApp {
+    width: 500px;
+    font-size: 24px;
+    grid-area: hair
 }
+ .myWorkImg {
+     width: 500px;
+ }
 
-ul{ 
-    display: inline-block;
-    vertical-align: top;
-    padding: 
-}
+ @media only screen and (max-width: 600){
+    
+ }
+

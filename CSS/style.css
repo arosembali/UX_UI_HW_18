@@ -1,4 +1,7 @@
 
+body{
+    margin: 0;
+}
 
 header {
     width: 100%;
@@ -15,8 +18,7 @@ header li {
     display: inline-block;
     
 }
-   
-    
+
 
 #welcome {
     font-size: 40px;
@@ -45,6 +47,11 @@ header li {
     padding-bottom: 20px;
     text-align: center;
 
+}
+
+#mySkills{
+    width: 800px;
+    margin: auto;
 }
 
 .footer {

@@ -19,6 +19,9 @@ header li {
     
 }
 
+.intro{
+    padding-left: 50px;
+}
 
 #welcome {
     font-size: 40px;
@@ -36,11 +39,6 @@ header li {
     font-family: montserrat;
     font-style: bold;
     width: 700px;
-}
-
-.heroImg {
-    height: 600px;
-    padding: 25px;
 }
 
 .content{
@@ -67,6 +65,7 @@ header li {
 
 .profile{
     width: 500px;
+    padding: 25px;
     
 }
 

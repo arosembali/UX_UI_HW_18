@@ -9,14 +9,34 @@
     text-align: center;
 }
 
-header {
-    width: 73%;
+.header {
     padding:10px;
+    display: inline;
 }
 
-ul { 
-    width: 50%;
-    margin-left: auto;
+li{
+    display: inline-block;
+    padding: 20px;
+    
+
+}
+
+#welcome {
+    font-size: 40px;
+    font-family: montserrat;
+    font-weight: 10px;
+}
+
+#description {
+    font-size: 24px;
+    font-family: montserrat;
+    font-style: bold;
+}
+#introParagraph {
+    font-size: 16px;
+    font-family: montserrat;
+    font-style: bold;
+    width: 700px;
 }
 
 .heroImg {
@@ -26,16 +46,18 @@ ul {
 
 .content{
     width: 900px;
+    text-align: center;
+
 }
 
 .footer {
     background-color:black;
-    padding: 100px;
+    padding: 10px;
     color: white;
     position:absolute;
     bottom:0;
     width:100%;
-    height:100px;  
+    height:200px;  
    
 }
 
@@ -53,6 +75,7 @@ ul {
  .container {
     min-height:100%;
     position:relative;
+    font-family: montserrat;
  }
 
  .myWork {

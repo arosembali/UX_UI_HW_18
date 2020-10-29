@@ -1,23 +1,22 @@
-.inline-block {
-    display: flex;
-    align-items: center;
+
+
+header {
+    width: 100%;
+    background-color: black;
 }
 
-.logo {
-    width: 23%;
-    padding: 1;
-    text-align: center;
+header ul {
+    float:right;
+    color: white;
 }
 
-.header {
-    padding:10px;
-    display: inline;
-}
-
-li{
+header li {
+    padding: 0px 5px;
     display: inline-block;
-    padding: 20px;
+    
 }
+   
+    
 
 #welcome {
     font-size: 40px;
@@ -43,7 +42,7 @@ li{
 }
 
 .content{
-    width: 900px;
+    padding-bottom: 20px;
     text-align: center;
 
 }
@@ -60,15 +59,17 @@ li{
 }
 
 .profile{
-    width: 500px
+    width: 500px;
+    
 }
 
-.body {
-    margin:0;
-    padding:0;
+.aboutMe {
     height:100%;
     background-color: black;
     color: white;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
  }
  .container {
     min-height:100%;
